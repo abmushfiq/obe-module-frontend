@@ -1,23 +1,16 @@
 import { Grid } from '@material-ui/core';
 import React from 'react';
 import {useForm,Form} from '../../Components/useForm';
-import {Controls} from '../../Components/controls/Control';
+import Controls from '../../Components/controls/Control';
 
 
 
 
 const typeOfCourse = [
-    {id:'GPA',title:'GPA'},
-    {id:'NONGPA',title:'NONGPA'},
-    {id:'Other',title:'Other'}
+    {id:'gpa',title:'GPA'},
+    {id:'nongpa',title:'NONGPA'},
+    {id:'other',title:'Other'}
 ]
-
-
-
-
-
-
-
 
 
 const initialFValues = {
