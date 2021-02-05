@@ -11,7 +11,7 @@ function App() {
     {/* <div >HERE WE GO ! </div> */}
 
     <Employee />
-    hi
+  
 
 </div>
   );
